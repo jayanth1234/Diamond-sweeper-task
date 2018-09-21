@@ -23,7 +23,7 @@
             let position = Math.ceil(Math.random() * 61);
         
         if (randomPositions.includes(`box${position}`)) {
-            console.log('prevent repeating numbers');
+            // console.log('prevent repeating numbers');
             continue;
         }
             randomPositions.push(`box${position}`);
@@ -35,7 +35,7 @@
                 randomPositions.push(`box${61 + index}`);
             }
         }
-        console.log(randomPositions);
+        // console.log(randomPositions);
     } 
 
     $(document).ready(function(){
