@@ -1,0 +1,111 @@
+<html>
+  <head>
+    <title>Quintype App</title>
+    <link rel="stylesheet" href="/assets/style.css" type="text/css"/>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"> -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous">
+    </script>
+    <script type="text/javascript" src="/assets/app.js"></script>
+    <script type="text/javascript" src="/js/index.js"></script>
+  </head>
+  <body>
+    <div id="container">
+      <div>
+        <div class="messages"><b>----Diamond Sweeper----</b></div>
+        <div class="template"></div>
+        <table class="diamondsweeper-board">
+          <tbody class="game-container">
+            <tr>
+              <td><div class="cell box1 unknown" id="box1"></div></td>
+              <td><div class="cell box2 unknown" id="box2"></div></td>
+              <td><div class="cell box3 unknown" id="box3"></div></td>
+              <td><div class="cell box4 unknown" id="box4"></div></td>
+              <td><div class="cell box5 unknown" id="box5"></div></td>
+              <td><div class="cell box6 unknown" id="box6"></div></td>
+              <td><div class="cell box7 unknown" id="box7"></div></td>
+              <td><div class="cell box8 unknown" id="box8"></div></td>
+            </tr>
+            <tr>
+              <td><div class="cell box9 unknown" id="box9"></div></td>
+              <td><div class="cell box10 unknown" id="box10"></div></td>
+              <td><div class="cell box11 unknown" id="box11"></div></td>
+              <td><div class="cell box12 unknown" id="box12"></div></td>
+              <td><div class="cell box13 unknown" id="box13"></div></td>
+              <td><div class="cell box14 unknown" id="box14"></div></td>
+              <td><div class="cell box15 unknown" id="box15"></div></td>
+              <td><div class="cell box16 unknown" id="box16"></div></td>
+            </tr>
+            <tr>
+              <td><div class="cell box17 unknown" id="box17"></div></td>
+              <td><div class="cell box18 unknown" id="box18"></div></td>
+              <td><div class="cell box19 unknown" id="box19"></div></td>
+              <td><div class="cell box20 unknown" id="box20"></div></td>
+              <td><div class="cell box21 unknown" id="box21"></div></td>
+              <td><div class="cell box22 unknown" id="box22"></div></td>
+              <td><div class="cell box23 unknown" id="box23"></div></td>
+              <td><div class="cell box24 unknown" id="box24"></div></td>
+            </tr>
+            <tr>
+              <td><div class="cell box25 unknown" id="box25"></div></td>
+              <td><div class="cell box26 unknown" id="box26"></div></td>
+              <td><div class="cell box27 unknown" id="box27"></div></td>
+              <td><div class="cell box28 unknown" id="box28"></div></td>
+              <td><div class="cell box29 unknown" id="box29"></div></td>
+              <td><div class="cell box30 unknown" id="box30"></div></td>
+              <td><div class="cell box31 unknown" id="box31"></div></td>
+              <td><div class="cell box32 unknown" id="box32"></div></td>
+            </tr>
+            <tr>
+              
+              <td><div class="cell box33 unknown" id="box33"></div></td>
+              <td><div class="cell box34 unknown" id="box34"></div></td>
+              <td><div class="cell box35 unknown" id="box35"></div></td>
+              <td><div class="cell box36 unknown" id="box36"></div></td>
+              <td><div class="cell box37 unknown" id="box37"></div></td>
+              <td><div class="cell box38 unknown" id="box38"></div></td>
+              <td><div class="cell box39 unknown" id="box39"></div></td>
+              <td><div class="cell box40 unknown" id="box40"></div></td>
+            </tr>
+            <tr>
+              <td><div class="cell box41 unknown" id="box41"></div></td>
+              <td><div class="cell box42 unknown" id="box42"></div></td>
+              <td><div class="cell box43 unknown" id="box43"></div></td>
+              <td><div class="cell box44 unknown" id="box44"></div></td>
+              <td><div class="cell box45 unknown" id="box45"></div></td>
+              <td><div class="cell box46 unknown" id="box46"></div></td>
+              <td><div class="cell box47 unknown" id="box47"></div></td>
+              <td><div class="cell box48 unknown" id="box48"></div></td>
+            </tr>
+            <tr>
+              <td><div class="cell box49 unknown" id="box49"></div></td>
+              <td><div class="cell box50 unknown" id="box50"></div></td>
+              <td><div class="cell box51 unknown" id="box51"></div></td>
+              <td><div class="cell box52 unknown" id="box52"></div></td>
+              <td><div class="cell box53 unknown" id="box53"></div></td>
+              <td><div class="cell box54 unknown" id="box54"></div></td>
+              <td><div class="cell box55 unknown" id="box55"></div></td>
+              <td><div class="cell box56 unknown" id="box56"></div></td>
+            </tr>
+            <tr>
+              <td><div class="cell box57 unknown" id="box57"></div></td>
+              <td><div class="cell box58 unknown" id="box58"></div></td>
+              <td><div class="cell box59 unknown" id="box59"></div></td>
+              <td><div class="cell box60 unknown" id="box60"></div></td>
+              <td><div class="cell box61 unknown" id="box61"></div></td>
+              <td><div class="cell box62 unknown" id="box62"></div></td>
+              <td><div class="cell box63 unknown" id="box63"></div></td>
+              <td><div class="cell box64 unknown" id="box64"></div></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <script type="text/javascript">
+      startApp(document.getElementById("container"));
+    </script>
+  </body>
+</html>
